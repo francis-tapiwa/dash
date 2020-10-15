@@ -1,0 +1,44 @@
+.summaryTable th {
+    padding-top: 10px;
+    padding-bottom: 14px;
+    border-bottom: solid 1px #ffffff;
+    
+}
+
+.summaryTable td {
+    padding: 4px 0px;
+    border-bottom: solid 1px #ffffff;
+    white-space: nowrap;
+    margin-right: 10px;
+}
+
+.summaryTableNot th {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: solid 1px #ffffff;
+    
+}
+
+.summaryTableNot td {
+    padding: 10px 0px;
+    border-bottom: solid 1px #28262C;
+    white-space: nowrap;
+}
+
+.summaryTableNot tr:hover {
+    background-color: #28262C;
+}
+
+.summaryTableNot tr {
+    padding-top: 10px;
+}
+
+.rowData {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .hide{
+        display: none;
+    }
+  }
