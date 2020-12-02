@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="Dash.css">
+  <link rel="stylesheet" href="Animate.css">
+  <link rel="stylesheet" href="https://use.typekit.net/hdy8hok.css">
+
+  <title>Dash</title>
+</head>
+
+<body>
+  <header>
+    <svg xmlns="http://www.w3.org/2000/svg" class="cir cir_1 top" width="400" height="400"
+      viewBox="0 0 255.263 255.263">
+      <circle cx="127.632" cy="127.632" r="127.632" fill="#1c1c1c" />
+    </svg>
+    <div class="logo">Nitpic</div>
+    <nav>
+      <ul class="navLinks">
+        <li class="links"><a href="/">Home</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="landing">
+    <div class="dnd bounce-top" id="drop-area">
+      <div class="dnd_txt" id="cir-text">Drag & Drop</div>
+    </div>
+    <div class="details slide-in-right">
+      <div class="header" id="get-start">Get Started</div>
+      <div class="sub_header" id="details">
+        Upload your first image to change the way you share images.
+      </div>
+      <div>
+        <form>
+          <input type="file" id="fileElem" multiple accept="image/*" onchange="handleFiles(this.files)">
+          <div><label class="btn" for="fileElem">Browse</label></div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="second">
+    <div class="wrapper slide-in-bottom">
+      <div>
+        <div class="header">Nitpic cares about user experience</div>
+        <div class="sub_header light">
+          Slow websites can be frustrating for even the most patient person. Sometimes we are to blame because we do not
+          take the time to optimize the images we share.
+        </div>
+      </div>
+      <div class="graphic">
+        <svg xmlns="http://www.w3.org/2000/svg" width="386.267" height="385.711" viewBox="0 0 386.267 385.711">
+          <g opacity="0.4">
+            <path
+              d="M338.273,65.653a191.834,191.834,0,0,0-41.757-35.688L125.7,374.02a191.844,191.844,0,0,0,53.672,11.691Z"
+              fill="#fff" />
+            <path d="M42.217,313.579a191.779,191.779,0,0,0,47.535,42.594L260.57,12.119A191.8,191.8,0,0,0,197.905,0Z"
+              fill="#fff" />
+            <path d="M150.775,4.682A193.081,193.081,0,0,0,17.457,273.205Z" fill="#fff" />
+            <path d="M364.245,103.587,225.287,383.47A193.1,193.1,0,0,0,364.245,103.587Z" fill="#fff" />
+          </g>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div class="third" id="third">
+    <div class="center slide-in-bottom">
+      <div class="header">Congratulations! 🎉</div>
+      <div class="sub_header">
+        The upload was successful, thank you for choosing Nitpic.
+      </div>
+    </div>
+  </div>
+  <div class="scroller">
+    <div class="gallery" id="gallery" />
+  </div>
+
+  <script src="./Dash.js"></script>
+</body>
+
+</html>
